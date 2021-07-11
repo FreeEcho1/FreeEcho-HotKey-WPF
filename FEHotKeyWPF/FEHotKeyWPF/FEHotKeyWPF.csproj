@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <PackageId>FreeEcho HotKey WPF</PackageId>
+    <Company>FreeEcho</Company>
+    <Product>FreeEcho HotKey WPF</Product>
+    <Authors>FreeEcho</Authors>
+    <Version>1.2.0</Version>
+    <Copyright>© 2021 FreeEcho</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Z:\AppDevelopment\Library\.Net\ホットキー (WPF)\FEHotKeyWPF\FEHotKeyWPF\FEHotKeyWPF.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>Z:\AppDevelopment\Library\.Net\ホットキー (WPF)\FEHotKeyWPF\FEHotKeyWPF\FEHotKeyWPF.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
