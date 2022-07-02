@@ -2,11 +2,12 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
     <Copyright>© 2021 FreeEcho</Copyright>
     <Authors>FreeEcho</Authors>
-    <Company>FreeEcho</Company>
+    <Company></Company>
+    <Version>1.3.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
