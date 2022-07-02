@@ -93,18 +93,19 @@
         </member>
         <member name="M:FreeEcho.FEHotKeyWPF.HotKeyWPF.GetHotKey(System.Windows.Input.KeyEventArgs,System.Boolean)">
             <summary>
-            <para>キーイベント情報からホットキー情報を取得</para>
+            キーイベント情報からホットキー情報を取得
             <para>「PreviewKeyDown」を使用する必要がある。「KeyDown」だと一部キーが機能しない</para>
             </summary>
             <param name="e">キーイベント</param>
             <param name="backspaceErase">Back Spaceは無し (No「false」/Yes「true」)</param>
             <returns>ホットキー情報</returns>
         </member>
-        <member name="M:FreeEcho.FEHotKeyWPF.HotKeyWPF.GetHotKeyString(FreeEcho.FEHotKeyWPF.HotKeyInformation)">
+        <member name="M:FreeEcho.FEHotKeyWPF.HotKeyWPF.GetHotKeyString(FreeEcho.FEHotKeyWPF.HotKeyInformation,System.String)">
             <summary>
             ホットキー情報からホットキーの文字列を取得
             </summary>
             <param name="hotKeyInformation">ホットキー情報</param>
+            <param name="separatorString">区切り文字列</param>
             <returns>ホットキー文字列 (失敗「null」)</returns>
         </member>
         <member name="T:FreeEcho.FEHotKeyWPF.NativeMethods">
