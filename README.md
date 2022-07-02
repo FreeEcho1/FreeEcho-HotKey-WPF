@@ -2,4 +2,6 @@
 WPF用のホットキープログラムです。<br>
 「TextBox」のキーイベントから押されているキーを取得、ホットキーの登録や破棄、の機能があります。<br>
 <br>
-「FEHotKeyWPFSample」は使用方法のサンプルです。
+「FEHotKeyWPFSample」は使用方法のサンプルです。<br>
+<br>
+「Visual Studio 2022」を使用。
